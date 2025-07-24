@@ -93,29 +93,6 @@
                     <!-- ELSE -->
                     <p class="text-secondary">{LIST_ROW_TEXT_CUT|strip_tags($this)|cot_string_truncate($this, '{PHP.itemListTruncateText}')}</p>
                     <!-- ENDIF -->
-<!-- BEGIN: ITEM -->
-  <div class="product" id="product-{MSITEM_ID}">
-
-
-    <!-- BEGIN: LIST_ITEM_PARAMS -->
-    <ul>
-      <!-- BEGIN: PARAM -->
-      <li><strong>{LIST_ITEM_PARAM_TITLE}:</strong> {LIST_ITEM_PARAM_VALUE}</li>
-      <!-- END: PARAM -->
-    </ul>
-    <!-- END: LIST_ITEM_PARAMS -->
-  </div>
-<!-- END: ITEM -->
-
-<!-- BEGIN: LIST_ITEM_PARAMS -->
-<ul class="list-group list-group-flush">
-    <!-- BEGIN: PARAM -->
-    <li class="list-group-item">
-        <strong>{LIST_ITEM_PARAM_TITLE}:</strong> {LIST_ITEM_PARAM_VALUE}
-    </li>
-    <!-- END: PARAM -->
-</ul>
-<!-- END: LIST_ITEM_PARAMS -->
                     <p class="card-text">
                       <small class="text-body-secondary">{LIST_ROW_CREATED}</small>
                     </p>
