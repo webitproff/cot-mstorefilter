@@ -52,4 +52,18 @@ Add to mstore.tpl
 </dl>
 <!-- ENDIF -->
 ```
+Add to mstore.list.tpl
+```
+<!-- IF {PHP|cot_plugin_active('mstorefilter')} -->
+{MSTORE_FILTER_FORM}
+<!-- ENDIF -->
+```
+Add to mstore.edit.tpl
+```
+<!-- IF {PHP|cot_plugin_active('mstorefilter')} -->
+{MSTORE_FORM_FILTER_PARAMS}
+<!-- ENDIF -->
+```
+
+
 
