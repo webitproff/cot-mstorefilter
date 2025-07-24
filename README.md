@@ -1,5 +1,5 @@
 # cot-mstorefilter
-Plugin "Mstore Filter" Dynamic filter parameters for Mstore module for Cotonti v.0.9.26 
+Plugin "Mstore Filter" Dynamic filter parameters for [Mstore](https://github.com/webitproff/cot-multistore) module for Cotonti v.0.9.26 
 
 <img alt="Dynamic filter parameters for Mstore module for Cotonti v.0.9.26" src="https://raw.githubusercontent.com/webitproff/cot-mstorefilter/refs/heads/main/mstorefilter.png">
 
