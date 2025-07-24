@@ -1,6 +1,7 @@
 # cot-mstorefilter
 Plugin "Mstore Filter" Dynamic filter parameters for Mstore module for Cotonti v.0.9.26 
 
+<img alt="Dynamic filter parameters for Mstore module for Cotonti v.0.9.26" src="https://raw.githubusercontent.com/webitproff/cot-mstorefilter/refs/heads/main/mstorefilter.png">
 
 Detailed instructions for filling in filter parameter fields: <ul>
   <li>
