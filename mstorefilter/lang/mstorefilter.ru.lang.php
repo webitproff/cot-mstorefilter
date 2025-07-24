@@ -29,6 +29,7 @@ $L['mstorefilter_checkbox'] = 'Чекбоксы';
 $L['mstorefilter_from'] = 'От';
 $L['mstorefilter_to'] = 'До';
 $L['mstorefilter_reset'] = 'Сбросить фильтры';
+$L['mstorefilter_apply'] = 'Применить фильтры';
 $L['mstorefilter_price'] = 'Диапазон цен';
 $L['mstorefilter_cats'] = 'Категории';
 $L['mstorefilter_sort'] = 'Сортировать по';
