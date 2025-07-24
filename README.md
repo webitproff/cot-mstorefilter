@@ -39,3 +39,17 @@ Detailed instructions for filling in filter parameter fields: <ul>
     <b>Active</b> — a toggle that enables or disables the filter parameter on the site. If the parameter is inactive, it will not be displayed to users.
   </li>
 </ul>
+
+Add to mstore.tpl
+```
+<!-- IF {PHP|cot_plugin_active('attacher')} -->
+<h3>{PHP.L.mstorefilter_paramsItem}</h3>
+<dl class="row">
+    <!-- BEGIN: MSTORE_FILTER_PARAMS -->
+    <dt class="col-sm-4">{PARAM_TITLE}</dt>
+    <dd class="col-sm-8">{PARAM_VALUE}</dd>
+    <!-- END: MSTORE_FILTER_PARAMS -->
+</dl>
+<!-- ENDIF -->
+```
+
