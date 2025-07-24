@@ -55,6 +55,14 @@ Add to mstore.tpl
 Add to mstore.list.tpl
 ```
 <!-- IF {PHP|cot_plugin_active('mstorefilter')} -->
+<div class="alert {MSTOREFILTER_MESSAGE_CLASS}">
+    {MSTOREFILTER_MESSAGE}
+</div>
+<!-- ENDIF -->
+```
+and
+```
+<!-- IF {PHP|cot_plugin_active('mstorefilter')} -->
 {MSTORE_FILTER_FORM}
 <!-- ENDIF -->
 ```
