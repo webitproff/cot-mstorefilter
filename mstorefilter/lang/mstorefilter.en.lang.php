@@ -29,6 +29,7 @@ $L['mstorefilter_checkbox'] = 'Checkboxes';
 $L['mstorefilter_from'] = 'From';
 $L['mstorefilter_to'] = 'To';
 $L['mstorefilter_reset'] = 'Reset Filters';
+$L['mstorefilter_apply'] = 'apply Filters';
 $L['mstorefilter_price'] = 'Price Range';
 $L['mstorefilter_cats'] = 'Categories';
 $L['mstorefilter_sort'] = 'Sort By';
