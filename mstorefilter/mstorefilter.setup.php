@@ -4,7 +4,7 @@
 Code=mstorefilter
 Name=Mstore Filter
 Description=Dynamic filter parameters for Mstore module
-Version=1.0.0
+Version=1.2.0
 Date=2025-07-24
 Author=webitproff
 Copyright=(c) webitproff

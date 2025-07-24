@@ -37,7 +37,6 @@ $L['mstorefilter_examples'] = 'Examples';
 $L['mstore_mostrelevant'] = 'Most Relevant';
 $L['mstore_costasc'] = 'Price: Ascending';
 $L['mstore_costdesc'] = 'Price: Descending';
-$L['mstorefilter_paramsItem'] = 'characteristics and properties';
 $L['mstore_help'] = 'Detailed instructions for filling in filter parameter fields:
 <ul>
 <li><b>Parameter Code</b> — a unique system identifier for the parameter. Use only Latin letters, numbers, and underscores without spaces. For example: <i>power</i>, <i>battery_capacity</i>. This code will be used in the database and code, so there must be no duplicates.</li>

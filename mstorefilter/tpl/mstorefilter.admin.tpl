@@ -15,8 +15,8 @@
     <!-- BEGIN: EDIT_FORM -->
     <div class="p-3 mb-4 bg-warning-subtle text-warning-emphasis">
         <h3>{PHP.L.mstorefilter_edit_param} #{FORM_PARAM_ID}</h3>
-		<input type="hidden" name="id" value="{FORM_PARAM_ID}" />
         <form action="{FORM_ACTION}" method="POST">
+		<input type="hidden" name="id" value="{FORM_PARAM_ID}" />
             <div class="mb-2">{FORM_FIELDS}</div>
             <button type="submit" class="btn btn-primary">{PHP.L.Save}</button>
             <a href="{CANCEL_URL}" class="btn btn-secondary">{PHP.L.Cancel}</a>

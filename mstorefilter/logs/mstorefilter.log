@@ -1,0 +1,655 @@
+[2025-07-24 19:46:49] - mstorefilter.mstoretags.php started
+[2025-07-24 19:46:49] - XTemplate loaded for filterform.tpl
+[2025-07-24 19:46:49] - Loaded 7 filter parameters
+[2025-07-24 19:46:49] - Processing param: battery_capacity, type: checkbox, values: 5, 10, 11, 12
+[2025-07-24 19:46:49] - Parsed checkbox param: battery_capacity, options: 5, 10, 11, 12
+[2025-07-24 19:46:49] - Processing param: rama, type: checkbox, values: Складная, Цельная
+[2025-07-24 19:46:49] - Parsed checkbox param: rama, options: Складная, Цельная
+[2025-07-24 19:46:49] - Processing param: power_motor, type: range, values: 0, 10000
+[2025-07-24 19:46:49] - Parsed range param: power_motor (value: 0)
+[2025-07-24 19:46:49] - Processing param: color, type: radio, values: Красный, Синий, Зелёный, Чёрный
+[2025-07-24 19:46:49] - Parsed radio param: color, options: Красный, Синий, Зелёный, Чёрный
+[2025-07-24 19:46:49] - Processing param: wheel_size, type: select, values: 16 дюймов, 20 дюймов, 24 дюйма, 26 дюймов
+[2025-07-24 19:46:49] - Parsed select param: wheel_size, options: 16 дюймов, 20 дюймов, 24 дюйма, 26 дюймов
+[2025-07-24 19:46:49] - Processing param: volt, type: select, values: 24, 36, 48, 72
+[2025-07-24 19:46:49] - Parsed select param: volt, options: 24, 36, 48, 72
+[2025-07-24 19:46:49] - Processing param: lights, type: select, values: 0, 1, 2, 3, 4
+[2025-07-24 19:46:49] - Parsed select param: lights, options: 0, 1, 2, 3, 4
+[2025-07-24 19:46:49] - Filter form parsed, content length: 7528
+[2025-07-24 19:47:11] - mstorefilter.mstoretags.php started
+[2025-07-24 19:47:11] - XTemplate loaded for filterform.tpl
+[2025-07-24 19:47:11] - Loaded 7 filter parameters
+[2025-07-24 19:47:11] - Processing param: battery_capacity, type: checkbox, values: 5, 10, 11, 12
+[2025-07-24 19:47:11] - Parsed checkbox param: battery_capacity, options: 5, 10, 11, 12
+[2025-07-24 19:47:11] - Processing param: rama, type: checkbox, values: Складная, Цельная
+[2025-07-24 19:47:11] - Parsed checkbox param: rama, options: Складная, Цельная
+[2025-07-24 19:47:11] - Processing param: power_motor, type: range, values: 0, 10000
+[2025-07-24 19:47:11] - Parsed range param: power_motor (value: 2100)
+[2025-07-24 19:47:11] - Processing param: color, type: radio, values: Красный, Синий, Зелёный, Чёрный
+[2025-07-24 19:47:11] - Parsed radio param: color, options: Красный, Синий, Зелёный, Чёрный
+[2025-07-24 19:47:11] - Processing param: wheel_size, type: select, values: 16 дюймов, 20 дюймов, 24 дюйма, 26 дюймов
+[2025-07-24 19:47:11] - Parsed select param: wheel_size, options: 16 дюймов, 20 дюймов, 24 дюйма, 26 дюймов
+[2025-07-24 19:47:11] - Processing param: volt, type: select, values: 24, 36, 48, 72
+[2025-07-24 19:47:11] - Parsed select param: volt, options: 24, 36, 48, 72
+[2025-07-24 19:47:11] - Processing param: lights, type: select, values: 0, 1, 2, 3, 4
+[2025-07-24 19:47:11] - Parsed select param: lights, options: 0, 1, 2, 3, 4
+[2025-07-24 19:47:11] - Filter form parsed, content length: 7579
+[2025-07-24 19:52:28] - mstorefilter.mstore.list.query.php started
+[2025-07-24 19:52:28] - Applied checkbox: battery_capacity = 5
+[2025-07-24 19:52:28] - Applied checkbox: rama = Цельная
+[2025-07-24 19:52:28] - Applied range: power_motor <= 2100
+[2025-07-24 19:52:28] - Applied radio: color = Зелёный
+[2025-07-24 19:52:28] - Applied select: wheel_size = 16 дюймов
+[2025-07-24 19:52:28] - Applied select: volt = 72
+[2025-07-24 19:52:28] - Applied select: lights = 2
+[2025-07-24 19:52:28] - Filter applied with 7 conditions
+[2025-07-24 19:52:28] - Found 3 items after filtering
+[2025-07-24 19:52:28] - mstorefilter.mstoretags.php started
+[2025-07-24 19:52:28] - XTemplate loaded for filterform.tpl
+[2025-07-24 19:52:28] - Loaded 7 filter parameters
+[2025-07-24 19:52:28] - Processing param: battery_capacity, type: checkbox, values: 5, 10, 11, 12
+[2025-07-24 19:52:28] - Parsed checkbox param: battery_capacity, options: 5, 10, 11, 12
+[2025-07-24 19:52:28] - Processing param: rama, type: checkbox, values: Складная, Цельная
+[2025-07-24 19:52:28] - Parsed checkbox param: rama, options: Складная, Цельная
+[2025-07-24 19:52:28] - Processing param: power_motor, type: range, values: 0, 10000
+[2025-07-24 19:52:28] - Parsed range param: power_motor (value: 2100)
+[2025-07-24 19:52:28] - Processing param: color, type: radio, values: Красный, Синий, Зелёный, Чёрный
+[2025-07-24 19:52:28] - Parsed radio param: color, options: Красный, Синий, Зелёный, Чёрный
+[2025-07-24 19:52:28] - Processing param: wheel_size, type: select, values: 16 дюймов, 20 дюймов, 24 дюйма, 26 дюймов
+[2025-07-24 19:52:28] - Parsed select param: wheel_size, options: 16 дюймов, 20 дюймов, 24 дюйма, 26 дюймов
+[2025-07-24 19:52:28] - Processing param: volt, type: select, values: 24, 36, 48, 72
+[2025-07-24 19:52:28] - Parsed select param: volt, options: 24, 36, 48, 72
+[2025-07-24 19:52:28] - Processing param: lights, type: select, values: 0, 1, 2, 3, 4
+[2025-07-24 19:52:28] - Parsed select param: lights, options: 0, 1, 2, 3, 4
+[2025-07-24 19:52:28] - Filter form parsed, content length: 7579
+[2025-07-24 19:56:45] - mstorefilter.mstore.list.query.php started
+[2025-07-24 19:56:45] - Applied checkbox: battery_capacity = 5
+[2025-07-24 19:56:45] - Applied checkbox: rama = Цельная
+[2025-07-24 19:56:45] - Applied range: power_motor <= 2100
+[2025-07-24 19:56:45] - Applied radio: color = Зелёный
+[2025-07-24 19:56:45] - Applied select: wheel_size = 16 дюймов
+[2025-07-24 19:56:45] - Applied select: volt = 72
+[2025-07-24 19:56:45] - Applied select: lights = 2
+[2025-07-24 19:56:45] - Found 3 items after filtering
+[2025-07-24 19:56:45] - mstorefilter.mstoretags.php started
+[2025-07-24 19:56:45] - XTemplate loaded for filterform.tpl
+[2025-07-24 19:56:45] - Loaded 7 filter parameters
+[2025-07-24 19:56:45] - Processing param: battery_capacity, type: checkbox, values: 5, 10, 11, 12
+[2025-07-24 19:56:45] - Parsed checkbox param: battery_capacity, options: 5, 10, 11, 12
+[2025-07-24 19:56:45] - Processing param: rama, type: checkbox, values: Складная, Цельная
+[2025-07-24 19:56:45] - Parsed checkbox param: rama, options: Складная, Цельная
+[2025-07-24 19:56:45] - Processing param: power_motor, type: range, values: 0, 10000
+[2025-07-24 19:56:45] - Parsed range param: power_motor (value: 2100)
+[2025-07-24 19:56:45] - Processing param: color, type: radio, values: Красный, Синий, Зелёный, Чёрный
+[2025-07-24 19:56:45] - Parsed radio param: color, options: Красный, Синий, Зелёный, Чёрный
+[2025-07-24 19:56:45] - Processing param: wheel_size, type: select, values: 16 дюймов, 20 дюймов, 24 дюйма, 26 дюймов
+[2025-07-24 19:56:45] - Parsed select param: wheel_size, options: 16 дюймов, 20 дюймов, 24 дюйма, 26 дюймов
+[2025-07-24 19:56:45] - Processing param: volt, type: select, values: 24, 36, 48, 72
+[2025-07-24 19:56:45] - Parsed select param: volt, options: 24, 36, 48, 72
+[2025-07-24 19:56:45] - Processing param: lights, type: select, values: 0, 1, 2, 3, 4
+[2025-07-24 19:56:45] - Parsed select param: lights, options: 0, 1, 2, 3, 4
+[2025-07-24 19:56:45] - Filter form parsed, content length: 7579
+[2025-07-24 19:57:52] - mstorefilter.mstore.list.query.php started
+[2025-07-24 19:57:52] - Applied checkbox: battery_capacity = 5
+[2025-07-24 19:57:52] - Applied checkbox: rama = Цельная
+[2025-07-24 19:57:52] - Applied range: power_motor <= 2100
+[2025-07-24 19:57:52] - Applied radio: color = Зелёный
+[2025-07-24 19:57:52] - Applied select: wheel_size = 16 дюймов
+[2025-07-24 19:57:52] - Applied select: volt = 72
+[2025-07-24 19:57:52] - Applied select: lights = 2
+[2025-07-24 19:57:52] - Filter applied with 7 conditions
+[2025-07-24 19:57:52] - Found 0 items after filtering
+[2025-07-24 19:57:52] - mstorefilter.mstoretags.php started
+[2025-07-24 19:57:52] - XTemplate loaded for filterform.tpl
+[2025-07-24 19:57:52] - Loaded 7 filter parameters
+[2025-07-24 19:57:52] - Processing param: battery_capacity, type: checkbox, values: 5, 10, 11, 12
+[2025-07-24 19:57:52] - Parsed checkbox param: battery_capacity, options: 5, 10, 11, 12
+[2025-07-24 19:57:52] - Processing param: rama, type: checkbox, values: Складная, Цельная
+[2025-07-24 19:57:52] - Parsed checkbox param: rama, options: Складная, Цельная
+[2025-07-24 19:57:52] - Processing param: power_motor, type: range, values: 0, 10000
+[2025-07-24 19:57:52] - Parsed range param: power_motor (value: 2100)
+[2025-07-24 19:57:52] - Processing param: color, type: radio, values: Красный, Синий, Зелёный, Чёрный
+[2025-07-24 19:57:52] - Parsed radio param: color, options: Красный, Синий, Зелёный, Чёрный
+[2025-07-24 19:57:52] - Processing param: wheel_size, type: select, values: 16 дюймов, 20 дюймов, 24 дюйма, 26 дюймов
+[2025-07-24 19:57:52] - Parsed select param: wheel_size, options: 16 дюймов, 20 дюймов, 24 дюйма, 26 дюймов
+[2025-07-24 19:57:52] - Processing param: volt, type: select, values: 24, 36, 48, 72
+[2025-07-24 19:57:52] - Parsed select param: volt, options: 24, 36, 48, 72
+[2025-07-24 19:57:52] - Processing param: lights, type: select, values: 0, 1, 2, 3, 4
+[2025-07-24 19:57:52] - Parsed select param: lights, options: 0, 1, 2, 3, 4
+[2025-07-24 19:57:52] - Filter form parsed, content length: 7579
+[2025-07-24 19:58:33] - mstorefilter.mstore.list.query.php started
+[2025-07-24 19:58:33] - Applied checkbox: battery_capacity = 5
+[2025-07-24 19:58:33] - Applied checkbox: rama = Цельная
+[2025-07-24 19:58:33] - Applied range: power_motor <= 2100
+[2025-07-24 19:58:33] - Applied radio: color = Зелёный
+[2025-07-24 19:58:33] - Applied select: wheel_size = 16 дюймов
+[2025-07-24 19:58:33] - Applied select: volt = 72
+[2025-07-24 19:58:33] - Applied select: lights = 2
+[2025-07-24 19:58:33] - Filter applied with 7 conditions
+[2025-07-24 19:58:33] - Found 0 items after filtering
+[2025-07-24 19:58:33] - mstorefilter.mstoretags.php started
+[2025-07-24 19:58:33] - XTemplate loaded for filterform.tpl
+[2025-07-24 19:58:33] - Loaded 7 filter parameters
+[2025-07-24 19:58:33] - Processing param: battery_capacity, type: checkbox, values: 5, 10, 11, 12
+[2025-07-24 19:58:33] - Parsed checkbox param: battery_capacity, options: 5, 10, 11, 12
+[2025-07-24 19:58:33] - Processing param: rama, type: checkbox, values: Складная, Цельная
+[2025-07-24 19:58:33] - Parsed checkbox param: rama, options: Складная, Цельная
+[2025-07-24 19:58:33] - Processing param: power_motor, type: range, values: 0, 10000
+[2025-07-24 19:58:33] - Parsed range param: power_motor (value: 2100)
+[2025-07-24 19:58:33] - Processing param: color, type: radio, values: Красный, Синий, Зелёный, Чёрный
+[2025-07-24 19:58:33] - Parsed radio param: color, options: Красный, Синий, Зелёный, Чёрный
+[2025-07-24 19:58:33] - Processing param: wheel_size, type: select, values: 16 дюймов, 20 дюймов, 24 дюйма, 26 дюймов
+[2025-07-24 19:58:33] - Parsed select param: wheel_size, options: 16 дюймов, 20 дюймов, 24 дюйма, 26 дюймов
+[2025-07-24 19:58:33] - Processing param: volt, type: select, values: 24, 36, 48, 72
+[2025-07-24 19:58:33] - Parsed select param: volt, options: 24, 36, 48, 72
+[2025-07-24 19:58:33] - Processing param: lights, type: select, values: 0, 1, 2, 3, 4
+[2025-07-24 19:58:33] - Parsed select param: lights, options: 0, 1, 2, 3, 4
+[2025-07-24 19:58:33] - Filter form parsed, content length: 7579
+[2025-07-24 19:59:21] - mstorefilter.mstore.list.query.php started
+[2025-07-24 19:59:21] - Applied checkbox: battery_capacity = 5
+[2025-07-24 19:59:21] - Applied checkbox: rama = Цельная
+[2025-07-24 19:59:21] - Applied range: power_motor <= 2100
+[2025-07-24 19:59:21] - Applied radio: color = Зелёный
+[2025-07-24 19:59:21] - Applied select: wheel_size = 16 дюймов
+[2025-07-24 19:59:21] - Applied select: volt = 72
+[2025-07-24 19:59:21] - Applied select: lights = 2
+[2025-07-24 19:59:21] - Filter applied with 7 conditions
+[2025-07-24 19:59:21] - Found 3 items after filtering
+[2025-07-24 19:59:21] - mstorefilter.mstoretags.php started
+[2025-07-24 19:59:21] - XTemplate loaded for filterform.tpl
+[2025-07-24 19:59:21] - Loaded 7 filter parameters
+[2025-07-24 19:59:21] - Processing param: battery_capacity, type: checkbox, values: 5, 10, 11, 12
+[2025-07-24 19:59:21] - Parsed checkbox param: battery_capacity, options: 5, 10, 11, 12
+[2025-07-24 19:59:21] - Processing param: rama, type: checkbox, values: Складная, Цельная
+[2025-07-24 19:59:21] - Parsed checkbox param: rama, options: Складная, Цельная
+[2025-07-24 19:59:21] - Processing param: power_motor, type: range, values: 0, 10000
+[2025-07-24 19:59:21] - Parsed range param: power_motor (value: 2100)
+[2025-07-24 19:59:21] - Processing param: color, type: radio, values: Красный, Синий, Зелёный, Чёрный
+[2025-07-24 19:59:21] - Parsed radio param: color, options: Красный, Синий, Зелёный, Чёрный
+[2025-07-24 19:59:21] - Processing param: wheel_size, type: select, values: 16 дюймов, 20 дюймов, 24 дюйма, 26 дюймов
+[2025-07-24 19:59:21] - Parsed select param: wheel_size, options: 16 дюймов, 20 дюймов, 24 дюйма, 26 дюймов
+[2025-07-24 19:59:21] - Processing param: volt, type: select, values: 24, 36, 48, 72
+[2025-07-24 19:59:21] - Parsed select param: volt, options: 24, 36, 48, 72
+[2025-07-24 19:59:21] - Processing param: lights, type: select, values: 0, 1, 2, 3, 4
+[2025-07-24 19:59:21] - Parsed select param: lights, options: 0, 1, 2, 3, 4
+[2025-07-24 19:59:21] - Filter form parsed, content length: 7579
+[2025-07-24 20:07:06] - mstorefilter.mstore.list.query.php started
+[2025-07-24 20:07:06] - Applied checkbox: battery_capacity = 5
+[2025-07-24 20:07:06] - Applied checkbox: rama = Цельная
+[2025-07-24 20:07:06] - Applied range: power_motor <= 2100
+[2025-07-24 20:07:06] - Applied radio: color = Зелёный
+[2025-07-24 20:07:06] - Applied select: wheel_size = 16 дюймов
+[2025-07-24 20:07:06] - Applied select: volt = 72
+[2025-07-24 20:07:06] - Applied select: lights = 2
+[2025-07-24 20:07:06] - Filter applied with 7 conditions
+[2025-07-24 20:07:06] - Found 0 items after filtering
+[2025-07-24 20:07:06] - mstorefilter.mstoretags.php started
+[2025-07-24 20:07:06] - XTemplate loaded for filterform.tpl
+[2025-07-24 20:07:06] - Loaded 7 filter parameters
+[2025-07-24 20:07:06] - Processing param: battery_capacity, type: checkbox, values: 5, 10, 11, 12
+[2025-07-24 20:07:06] - Parsed checkbox param: battery_capacity, options: 5, 10, 11, 12
+[2025-07-24 20:07:06] - Processing param: rama, type: checkbox, values: Складная, Цельная
+[2025-07-24 20:07:06] - Parsed checkbox param: rama, options: Складная, Цельная
+[2025-07-24 20:07:06] - Processing param: power_motor, type: range, values: 0, 10000
+[2025-07-24 20:07:06] - Parsed range param: power_motor (value: 2100)
+[2025-07-24 20:07:06] - Processing param: color, type: radio, values: Красный, Синий, Зелёный, Чёрный
+[2025-07-24 20:07:06] - Parsed radio param: color, options: Красный, Синий, Зелёный, Чёрный
+[2025-07-24 20:07:06] - Processing param: wheel_size, type: select, values: 16 дюймов, 20 дюймов, 24 дюйма, 26 дюймов
+[2025-07-24 20:07:06] - Parsed select param: wheel_size, options: 16 дюймов, 20 дюймов, 24 дюйма, 26 дюймов
+[2025-07-24 20:07:06] - Processing param: volt, type: select, values: 24, 36, 48, 72
+[2025-07-24 20:07:06] - Parsed select param: volt, options: 24, 36, 48, 72
+[2025-07-24 20:07:06] - Processing param: lights, type: select, values: 0, 1, 2, 3, 4
+[2025-07-24 20:07:06] - Parsed select param: lights, options: 0, 1, 2, 3, 4
+[2025-07-24 20:07:06] - Filter form parsed, content length: 7579
+[2025-07-24 20:09:02] - mstorefilter.mstore.list.query.php started
+[2025-07-24 20:09:02] - Applied checkbox: battery_capacity = 5
+[2025-07-24 20:09:02] - Applied checkbox: rama = Цельная
+[2025-07-24 20:09:02] - Applied range: power_motor <= 2100
+[2025-07-24 20:09:02] - Applied radio: color = Зелёный
+[2025-07-24 20:09:02] - Applied select: wheel_size = 16 дюймов
+[2025-07-24 20:09:02] - Applied select: volt = 72
+[2025-07-24 20:09:02] - Applied select: lights = 2
+[2025-07-24 20:09:02] - Filter applied with 7 conditions
+[2025-07-24 20:09:02] - Found 3 items after filtering
+[2025-07-24 20:09:02] - mstorefilter.mstoretags.php started
+[2025-07-24 20:09:02] - XTemplate loaded for filterform.tpl
+[2025-07-24 20:09:02] - Loaded 7 filter parameters
+[2025-07-24 20:09:02] - Processing param: battery_capacity, type: checkbox, values: 5, 10, 11, 12
+[2025-07-24 20:09:02] - Parsed checkbox param: battery_capacity, options: 5, 10, 11, 12
+[2025-07-24 20:09:02] - Processing param: rama, type: checkbox, values: Складная, Цельная
+[2025-07-24 20:09:02] - Parsed checkbox param: rama, options: Складная, Цельная
+[2025-07-24 20:09:02] - Processing param: power_motor, type: range, values: 0, 10000
+[2025-07-24 20:09:02] - Parsed range param: power_motor (value: 2100)
+[2025-07-24 20:09:02] - Processing param: color, type: radio, values: Красный, Синий, Зелёный, Чёрный
+[2025-07-24 20:09:02] - Parsed radio param: color, options: Красный, Синий, Зелёный, Чёрный
+[2025-07-24 20:09:02] - Processing param: wheel_size, type: select, values: 16 дюймов, 20 дюймов, 24 дюйма, 26 дюймов
+[2025-07-24 20:09:02] - Parsed select param: wheel_size, options: 16 дюймов, 20 дюймов, 24 дюйма, 26 дюймов
+[2025-07-24 20:09:02] - Processing param: volt, type: select, values: 24, 36, 48, 72
+[2025-07-24 20:09:02] - Parsed select param: volt, options: 24, 36, 48, 72
+[2025-07-24 20:09:02] - Processing param: lights, type: select, values: 0, 1, 2, 3, 4
+[2025-07-24 20:09:02] - Parsed select param: lights, options: 0, 1, 2, 3, 4
+[2025-07-24 20:09:02] - Filter form parsed, content length: 7579
+[2025-07-24 20:11:44] - mstorefilter.mstore.list.query.php started
+[2025-07-24 20:11:44] - Applied checkbox: battery_capacity = 5
+[2025-07-24 20:11:44] - Applied checkbox: rama = Цельная
+[2025-07-24 20:11:44] - Applied range: power_motor <= 2100
+[2025-07-24 20:11:44] - Applied radio: color = Зелёный
+[2025-07-24 20:11:44] - Applied select: wheel_size = 16 дюймов
+[2025-07-24 20:11:44] - Applied select: volt = 72
+[2025-07-24 20:11:44] - Applied select: lights = 2
+[2025-07-24 20:11:44] - Filter applied with 7 conditions
+[2025-07-24 20:11:44] - Found 3 items after filtering
+[2025-07-24 20:11:44] - mstorefilter.mstoretags.php started
+[2025-07-24 20:11:44] - XTemplate loaded for filterform.tpl
+[2025-07-24 20:11:44] - Loaded 7 filter parameters
+[2025-07-24 20:11:44] - Processing param: battery_capacity, type: checkbox, values: 5, 10, 11, 12
+[2025-07-24 20:11:44] - Parsed checkbox param: battery_capacity, options: 5, 10, 11, 12
+[2025-07-24 20:11:44] - Processing param: rama, type: checkbox, values: Складная, Цельная
+[2025-07-24 20:11:44] - Parsed checkbox param: rama, options: Складная, Цельная
+[2025-07-24 20:11:44] - Processing param: power_motor, type: range, values: 0, 10000
+[2025-07-24 20:11:44] - Parsed range param: power_motor (value: 2100)
+[2025-07-24 20:11:44] - Processing param: color, type: radio, values: Красный, Синий, Зелёный, Чёрный
+[2025-07-24 20:11:44] - Parsed radio param: color, options: Красный, Синий, Зелёный, Чёрный
+[2025-07-24 20:11:44] - Processing param: wheel_size, type: select, values: 16 дюймов, 20 дюймов, 24 дюйма, 26 дюймов
+[2025-07-24 20:11:44] - Parsed select param: wheel_size, options: 16 дюймов, 20 дюймов, 24 дюйма, 26 дюймов
+[2025-07-24 20:11:44] - Processing param: volt, type: select, values: 24, 36, 48, 72
+[2025-07-24 20:11:44] - Parsed select param: volt, options: 24, 36, 48, 72
+[2025-07-24 20:11:44] - Processing param: lights, type: select, values: 0, 1, 2, 3, 4
+[2025-07-24 20:11:44] - Parsed select param: lights, options: 0, 1, 2, 3, 4
+[2025-07-24 20:11:44] - Filter form parsed, content length: 7579
+[2025-07-24 20:19:11] - mstorefilter.mstore.list.query.php started
+[2025-07-24 20:19:11] - Applied checkbox: battery_capacity = 5
+[2025-07-24 20:19:11] - Applied checkbox: rama = Цельная
+[2025-07-24 20:19:11] - Applied range: power_motor <= 2100
+[2025-07-24 20:19:11] - Applied radio: color = Зелёный
+[2025-07-24 20:19:11] - Applied select: wheel_size = 16 дюймов
+[2025-07-24 20:19:11] - Applied select: volt = 72
+[2025-07-24 20:19:11] - Applied select: lights = 2
+[2025-07-24 20:19:11] - Filter applied with 7 conditions
+[2025-07-24 20:19:11] - Found 3 items after filtering
+[2025-07-24 20:19:11] - mstorefilter.mstoretags.php started
+[2025-07-24 20:19:11] - XTemplate loaded for filterform.tpl
+[2025-07-24 20:19:11] - Loaded 7 filter parameters
+[2025-07-24 20:19:11] - Processing param: battery_capacity, type: checkbox, values: 5, 10, 11, 12
+[2025-07-24 20:19:11] - Parsed checkbox param: battery_capacity, options: 5, 10, 11, 12
+[2025-07-24 20:19:11] - Processing param: rama, type: checkbox, values: Складная, Цельная
+[2025-07-24 20:19:11] - Parsed checkbox param: rama, options: Складная, Цельная
+[2025-07-24 20:19:11] - Processing param: power_motor, type: range, values: 0, 10000
+[2025-07-24 20:19:11] - Parsed range param: power_motor (value: 2100)
+[2025-07-24 20:19:11] - Processing param: color, type: radio, values: Красный, Синий, Зелёный, Чёрный
+[2025-07-24 20:19:11] - Parsed radio param: color, options: Красный, Синий, Зелёный, Чёрный
+[2025-07-24 20:19:11] - Processing param: wheel_size, type: select, values: 16 дюймов, 20 дюймов, 24 дюйма, 26 дюймов
+[2025-07-24 20:19:11] - Parsed select param: wheel_size, options: 16 дюймов, 20 дюймов, 24 дюйма, 26 дюймов
+[2025-07-24 20:19:11] - Processing param: volt, type: select, values: 24, 36, 48, 72
+[2025-07-24 20:19:11] - Parsed select param: volt, options: 24, 36, 48, 72
+[2025-07-24 20:19:11] - Processing param: lights, type: select, values: 0, 1, 2, 3, 4
+[2025-07-24 20:19:11] - Parsed select param: lights, options: 0, 1, 2, 3, 4
+[2025-07-24 20:19:11] - Filter form parsed, content length: 7579
+[2025-07-24 20:19:17] - mstorefilter.mstore.list.query.php started
+[2025-07-24 20:19:17] - No filter conditions applied
+[2025-07-24 20:19:17] - mstorefilter.mstoretags.php started
+[2025-07-24 20:19:17] - XTemplate loaded for filterform.tpl
+[2025-07-24 20:19:17] - Loaded 7 filter parameters
+[2025-07-24 20:19:17] - Processing param: battery_capacity, type: checkbox, values: 5, 10, 11, 12
+[2025-07-24 20:19:17] - Parsed checkbox param: battery_capacity, options: 5, 10, 11, 12
+[2025-07-24 20:19:17] - Processing param: rama, type: checkbox, values: Складная, Цельная
+[2025-07-24 20:19:17] - Parsed checkbox param: rama, options: Складная, Цельная
+[2025-07-24 20:19:17] - Processing param: power_motor, type: range, values: 0, 10000
+[2025-07-24 20:19:17] - Parsed range param: power_motor (value: 0)
+[2025-07-24 20:19:17] - Processing param: color, type: radio, values: Красный, Синий, Зелёный, Чёрный
+[2025-07-24 20:19:17] - Parsed radio param: color, options: Красный, Синий, Зелёный, Чёрный
+[2025-07-24 20:19:17] - Processing param: wheel_size, type: select, values: 16 дюймов, 20 дюймов, 24 дюйма, 26 дюймов
+[2025-07-24 20:19:17] - Parsed select param: wheel_size, options: 16 дюймов, 20 дюймов, 24 дюйма, 26 дюймов
+[2025-07-24 20:19:17] - Processing param: volt, type: select, values: 24, 36, 48, 72
+[2025-07-24 20:19:17] - Parsed select param: volt, options: 24, 36, 48, 72
+[2025-07-24 20:19:17] - Processing param: lights, type: select, values: 0, 1, 2, 3, 4
+[2025-07-24 20:19:17] - Parsed select param: lights, options: 0, 1, 2, 3, 4
+[2025-07-24 20:19:17] - Filter form parsed, content length: 7528
+[2025-07-24 20:19:25] - mstorefilter.mstore.list.query.php started
+[2025-07-24 20:19:25] - Applied checkbox: battery_capacity = 5
+[2025-07-24 20:19:25] - Skipped range filter: power_motor (value: 0)
+[2025-07-24 20:19:25] - Applied radio: color = Зелёный
+[2025-07-24 20:19:25] - Filter applied with 2 conditions
+[2025-07-24 20:19:25] - Found 1 items after filtering
+[2025-07-24 20:19:25] - mstorefilter.mstoretags.php started
+[2025-07-24 20:19:25] - XTemplate loaded for filterform.tpl
+[2025-07-24 20:19:25] - Loaded 7 filter parameters
+[2025-07-24 20:19:25] - Processing param: battery_capacity, type: checkbox, values: 5, 10, 11, 12
+[2025-07-24 20:19:25] - Parsed checkbox param: battery_capacity, options: 5, 10, 11, 12
+[2025-07-24 20:19:25] - Processing param: rama, type: checkbox, values: Складная, Цельная
+[2025-07-24 20:19:25] - Parsed checkbox param: rama, options: Складная, Цельная
+[2025-07-24 20:19:25] - Processing param: power_motor, type: range, values: 0, 10000
+[2025-07-24 20:19:25] - Parsed range param: power_motor (value: 0)
+[2025-07-24 20:19:25] - Processing param: color, type: radio, values: Красный, Синий, Зелёный, Чёрный
+[2025-07-24 20:19:25] - Parsed radio param: color, options: Красный, Синий, Зелёный, Чёрный
+[2025-07-24 20:19:25] - Processing param: wheel_size, type: select, values: 16 дюймов, 20 дюймов, 24 дюйма, 26 дюймов
+[2025-07-24 20:19:25] - Parsed select param: wheel_size, options: 16 дюймов, 20 дюймов, 24 дюйма, 26 дюймов
+[2025-07-24 20:19:25] - Processing param: volt, type: select, values: 24, 36, 48, 72
+[2025-07-24 20:19:25] - Parsed select param: volt, options: 24, 36, 48, 72
+[2025-07-24 20:19:25] - Processing param: lights, type: select, values: 0, 1, 2, 3, 4
+[2025-07-24 20:19:25] - Parsed select param: lights, options: 0, 1, 2, 3, 4
+[2025-07-24 20:19:25] - Filter form parsed, content length: 7542
+[2025-07-24 20:19:33] - mstorefilter.mstore.list.query.php started
+[2025-07-24 20:19:33] - Applied checkbox: battery_capacity = 5
+[2025-07-24 20:19:33] - Skipped range filter: power_motor (value: 0)
+[2025-07-24 20:19:33] - Applied radio: color = Зелёный
+[2025-07-24 20:19:33] - Applied select: volt = 72
+[2025-07-24 20:19:33] - Filter applied with 3 conditions
+[2025-07-24 20:19:33] - Found 2 items after filtering
+[2025-07-24 20:19:33] - mstorefilter.mstoretags.php started
+[2025-07-24 20:19:33] - XTemplate loaded for filterform.tpl
+[2025-07-24 20:19:33] - Loaded 7 filter parameters
+[2025-07-24 20:19:33] - Processing param: battery_capacity, type: checkbox, values: 5, 10, 11, 12
+[2025-07-24 20:19:33] - Parsed checkbox param: battery_capacity, options: 5, 10, 11, 12
+[2025-07-24 20:19:33] - Processing param: rama, type: checkbox, values: Складная, Цельная
+[2025-07-24 20:19:33] - Parsed checkbox param: rama, options: Складная, Цельная
+[2025-07-24 20:19:33] - Processing param: power_motor, type: range, values: 0, 10000
+[2025-07-24 20:19:33] - Parsed range param: power_motor (value: 0)
+[2025-07-24 20:19:33] - Processing param: color, type: radio, values: Красный, Синий, Зелёный, Чёрный
+[2025-07-24 20:19:33] - Parsed radio param: color, options: Красный, Синий, Зелёный, Чёрный
+[2025-07-24 20:19:33] - Processing param: wheel_size, type: select, values: 16 дюймов, 20 дюймов, 24 дюйма, 26 дюймов
+[2025-07-24 20:19:33] - Parsed select param: wheel_size, options: 16 дюймов, 20 дюймов, 24 дюйма, 26 дюймов
+[2025-07-24 20:19:33] - Processing param: volt, type: select, values: 24, 36, 48, 72
+[2025-07-24 20:19:33] - Parsed select param: volt, options: 24, 36, 48, 72
+[2025-07-24 20:19:33] - Processing param: lights, type: select, values: 0, 1, 2, 3, 4
+[2025-07-24 20:19:33] - Parsed select param: lights, options: 0, 1, 2, 3, 4
+[2025-07-24 20:19:33] - Filter form parsed, content length: 7550
+[2025-07-24 20:19:52] - mstorefilter.mstore.list.query.php started
+[2025-07-24 20:19:52] - Applied checkbox: battery_capacity = 5
+[2025-07-24 20:19:52] - Applied range: power_motor <= 2910
+[2025-07-24 20:19:52] - Applied radio: color = Зелёный
+[2025-07-24 20:19:52] - Applied select: volt = 72
+[2025-07-24 20:19:52] - Filter applied with 4 conditions
+[2025-07-24 20:19:52] - Found 3 items after filtering
+[2025-07-24 20:19:52] - mstorefilter.mstoretags.php started
+[2025-07-24 20:19:52] - XTemplate loaded for filterform.tpl
+[2025-07-24 20:19:52] - Loaded 7 filter parameters
+[2025-07-24 20:19:52] - Processing param: battery_capacity, type: checkbox, values: 5, 10, 11, 12
+[2025-07-24 20:19:52] - Parsed checkbox param: battery_capacity, options: 5, 10, 11, 12
+[2025-07-24 20:19:52] - Processing param: rama, type: checkbox, values: Складная, Цельная
+[2025-07-24 20:19:52] - Parsed checkbox param: rama, options: Складная, Цельная
+[2025-07-24 20:19:52] - Processing param: power_motor, type: range, values: 0, 10000
+[2025-07-24 20:19:52] - Parsed range param: power_motor (value: 2910)
+[2025-07-24 20:19:52] - Processing param: color, type: radio, values: Красный, Синий, Зелёный, Чёрный
+[2025-07-24 20:19:52] - Parsed radio param: color, options: Красный, Синий, Зелёный, Чёрный
+[2025-07-24 20:19:52] - Processing param: wheel_size, type: select, values: 16 дюймов, 20 дюймов, 24 дюйма, 26 дюймов
+[2025-07-24 20:19:52] - Parsed select param: wheel_size, options: 16 дюймов, 20 дюймов, 24 дюйма, 26 дюймов
+[2025-07-24 20:19:52] - Processing param: volt, type: select, values: 24, 36, 48, 72
+[2025-07-24 20:19:52] - Parsed select param: volt, options: 24, 36, 48, 72
+[2025-07-24 20:19:52] - Processing param: lights, type: select, values: 0, 1, 2, 3, 4
+[2025-07-24 20:19:52] - Parsed select param: lights, options: 0, 1, 2, 3, 4
+[2025-07-24 20:19:52] - Filter form parsed, content length: 7556
+[2025-07-24 20:29:40] - mstorefilter.mstore.list.query.php started
+[2025-07-24 20:29:40] - Applied checkbox: battery_capacity = 5
+[2025-07-24 20:29:40] - Applied range: power_motor <= 2910
+[2025-07-24 20:29:40] - Applied radio: color = Зелёный
+[2025-07-24 20:29:40] - Applied select: volt = 72
+[2025-07-24 20:29:40] - Filter applied with 4 conditions
+[2025-07-24 20:29:40] - Found 3 items after filtering
+[2025-07-24 20:29:40] - mstorefilter.mstoretags.php started
+[2025-07-24 20:29:40] - XTemplate loaded for filterform.tpl
+[2025-07-24 20:29:40] - Loaded 7 filter parameters
+[2025-07-24 20:29:40] - Processing param: battery_capacity, type: checkbox, values: 5, 10, 11, 12
+[2025-07-24 20:29:40] - Parsed checkbox param: battery_capacity, options: 5, 10, 11, 12
+[2025-07-24 20:29:40] - Processing param: rama, type: checkbox, values: Складная, Цельная
+[2025-07-24 20:29:40] - Parsed checkbox param: rama, options: Складная, Цельная
+[2025-07-24 20:29:40] - Processing param: power_motor, type: range, values: 0, 10000
+[2025-07-24 20:29:40] - Parsed range param: power_motor (value: 2910)
+[2025-07-24 20:29:40] - Processing param: color, type: radio, values: Красный, Синий, Зелёный, Чёрный
+[2025-07-24 20:29:40] - Parsed radio param: color, options: Красный, Синий, Зелёный, Чёрный
+[2025-07-24 20:29:40] - Processing param: wheel_size, type: select, values: 16 дюймов, 20 дюймов, 24 дюйма, 26 дюймов
+[2025-07-24 20:29:40] - Parsed select param: wheel_size, options: 16 дюймов, 20 дюймов, 24 дюйма, 26 дюймов
+[2025-07-24 20:29:40] - Processing param: volt, type: select, values: 24, 36, 48, 72
+[2025-07-24 20:29:40] - Parsed select param: volt, options: 24, 36, 48, 72
+[2025-07-24 20:29:40] - Processing param: lights, type: select, values: 0, 1, 2, 3, 4
+[2025-07-24 20:29:40] - Parsed select param: lights, options: 0, 1, 2, 3, 4
+[2025-07-24 20:29:40] - Filter form parsed, content length: 7556
+[2025-07-24 20:29:46] - mstorefilter.mstore.list.query.php started
+[2025-07-24 20:29:46] - Applied range: power_motor <= 2910
+[2025-07-24 20:29:46] - Applied radio: color = Зелёный
+[2025-07-24 20:29:46] - Applied select: volt = 72
+[2025-07-24 20:29:46] - Filter applied with 3 conditions
+[2025-07-24 20:29:46] - Found 3 items after filtering
+[2025-07-24 20:29:46] - mstorefilter.mstoretags.php started
+[2025-07-24 20:29:46] - XTemplate loaded for filterform.tpl
+[2025-07-24 20:29:46] - Loaded 7 filter parameters
+[2025-07-24 20:29:46] - Processing param: battery_capacity, type: checkbox, values: 5, 10, 11, 12
+[2025-07-24 20:29:46] - Parsed checkbox param: battery_capacity, options: 5, 10, 11, 12
+[2025-07-24 20:29:46] - Processing param: rama, type: checkbox, values: Складная, Цельная
+[2025-07-24 20:29:46] - Parsed checkbox param: rama, options: Складная, Цельная
+[2025-07-24 20:29:46] - Processing param: power_motor, type: range, values: 0, 10000
+[2025-07-24 20:29:46] - Parsed range param: power_motor (value: 2910)
+[2025-07-24 20:29:46] - Processing param: color, type: radio, values: Красный, Синий, Зелёный, Чёрный
+[2025-07-24 20:29:46] - Parsed radio param: color, options: Красный, Синий, Зелёный, Чёрный
+[2025-07-24 20:29:46] - Processing param: wheel_size, type: select, values: 16 дюймов, 20 дюймов, 24 дюйма, 26 дюймов
+[2025-07-24 20:29:46] - Parsed select param: wheel_size, options: 16 дюймов, 20 дюймов, 24 дюйма, 26 дюймов
+[2025-07-24 20:29:46] - Processing param: volt, type: select, values: 24, 36, 48, 72
+[2025-07-24 20:29:46] - Parsed select param: volt, options: 24, 36, 48, 72
+[2025-07-24 20:29:46] - Processing param: lights, type: select, values: 0, 1, 2, 3, 4
+[2025-07-24 20:29:46] - Parsed select param: lights, options: 0, 1, 2, 3, 4
+[2025-07-24 20:29:46] - Filter form parsed, content length: 7549
+[2025-07-24 20:29:54] - mstorefilter.mstore.list.query.php started
+[2025-07-24 20:29:54] - Applied range: power_motor <= 2910
+[2025-07-24 20:29:54] - Applied radio: color = Зелёный
+[2025-07-24 20:29:54] - Filter applied with 2 conditions
+[2025-07-24 20:29:54] - Found 3 items after filtering
+[2025-07-24 20:29:54] - mstorefilter.mstoretags.php started
+[2025-07-24 20:29:54] - XTemplate loaded for filterform.tpl
+[2025-07-24 20:29:54] - Loaded 7 filter parameters
+[2025-07-24 20:29:54] - Processing param: battery_capacity, type: checkbox, values: 5, 10, 11, 12
+[2025-07-24 20:29:54] - Parsed checkbox param: battery_capacity, options: 5, 10, 11, 12
+[2025-07-24 20:29:54] - Processing param: rama, type: checkbox, values: Складная, Цельная
+[2025-07-24 20:29:54] - Parsed checkbox param: rama, options: Складная, Цельная
+[2025-07-24 20:29:54] - Processing param: power_motor, type: range, values: 0, 10000
+[2025-07-24 20:29:54] - Parsed range param: power_motor (value: 2910)
+[2025-07-24 20:29:54] - Processing param: color, type: radio, values: Красный, Синий, Зелёный, Чёрный
+[2025-07-24 20:29:54] - Parsed radio param: color, options: Красный, Синий, Зелёный, Чёрный
+[2025-07-24 20:29:54] - Processing param: wheel_size, type: select, values: 16 дюймов, 20 дюймов, 24 дюйма, 26 дюймов
+[2025-07-24 20:29:54] - Parsed select param: wheel_size, options: 16 дюймов, 20 дюймов, 24 дюйма, 26 дюймов
+[2025-07-24 20:29:54] - Processing param: volt, type: select, values: 24, 36, 48, 72
+[2025-07-24 20:29:54] - Parsed select param: volt, options: 24, 36, 48, 72
+[2025-07-24 20:29:54] - Processing param: lights, type: select, values: 0, 1, 2, 3, 4
+[2025-07-24 20:29:54] - Parsed select param: lights, options: 0, 1, 2, 3, 4
+[2025-07-24 20:29:54] - Filter form parsed, content length: 7541
+[2025-07-24 20:29:58] - mstorefilter.mstore.list.query.php started
+[2025-07-24 20:29:58] - Applied range: power_motor <= 479
+[2025-07-24 20:29:58] - Applied radio: color = Зелёный
+[2025-07-24 20:29:58] - Filter applied with 2 conditions
+[2025-07-24 20:29:58] - Found 3 items after filtering
+[2025-07-24 20:29:58] - mstorefilter.mstoretags.php started
+[2025-07-24 20:29:58] - XTemplate loaded for filterform.tpl
+[2025-07-24 20:29:58] - Loaded 7 filter parameters
+[2025-07-24 20:29:58] - Processing param: battery_capacity, type: checkbox, values: 5, 10, 11, 12
+[2025-07-24 20:29:58] - Parsed checkbox param: battery_capacity, options: 5, 10, 11, 12
+[2025-07-24 20:29:58] - Processing param: rama, type: checkbox, values: Складная, Цельная
+[2025-07-24 20:29:58] - Parsed checkbox param: rama, options: Складная, Цельная
+[2025-07-24 20:29:58] - Processing param: power_motor, type: range, values: 0, 10000
+[2025-07-24 20:29:58] - Parsed range param: power_motor (value: 479)
+[2025-07-24 20:29:58] - Processing param: color, type: radio, values: Красный, Синий, Зелёный, Чёрный
+[2025-07-24 20:29:58] - Parsed radio param: color, options: Красный, Синий, Зелёный, Чёрный
+[2025-07-24 20:29:58] - Processing param: wheel_size, type: select, values: 16 дюймов, 20 дюймов, 24 дюйма, 26 дюймов
+[2025-07-24 20:29:58] - Parsed select param: wheel_size, options: 16 дюймов, 20 дюймов, 24 дюйма, 26 дюймов
+[2025-07-24 20:29:58] - Processing param: volt, type: select, values: 24, 36, 48, 72
+[2025-07-24 20:29:58] - Parsed select param: volt, options: 24, 36, 48, 72
+[2025-07-24 20:29:58] - Processing param: lights, type: select, values: 0, 1, 2, 3, 4
+[2025-07-24 20:29:58] - Parsed select param: lights, options: 0, 1, 2, 3, 4
+[2025-07-24 20:29:58] - Filter form parsed, content length: 7539
+[2025-07-24 20:30:06] - mstorefilter.mstore.list.query.php started
+[2025-07-24 20:30:06] - Applied range: power_motor <= 34
+[2025-07-24 20:30:06] - Applied radio: color = Зелёный
+[2025-07-24 20:30:06] - Filter applied with 2 conditions
+[2025-07-24 20:30:06] - Found 3 items after filtering
+[2025-07-24 20:30:06] - mstorefilter.mstoretags.php started
+[2025-07-24 20:30:06] - XTemplate loaded for filterform.tpl
+[2025-07-24 20:30:06] - Loaded 7 filter parameters
+[2025-07-24 20:30:06] - Processing param: battery_capacity, type: checkbox, values: 5, 10, 11, 12
+[2025-07-24 20:30:06] - Parsed checkbox param: battery_capacity, options: 5, 10, 11, 12
+[2025-07-24 20:30:06] - Processing param: rama, type: checkbox, values: Складная, Цельная
+[2025-07-24 20:30:06] - Parsed checkbox param: rama, options: Складная, Цельная
+[2025-07-24 20:30:06] - Processing param: power_motor, type: range, values: 0, 10000
+[2025-07-24 20:30:06] - Parsed range param: power_motor (value: 34)
+[2025-07-24 20:30:06] - Processing param: color, type: radio, values: Красный, Синий, Зелёный, Чёрный
+[2025-07-24 20:30:06] - Parsed radio param: color, options: Красный, Синий, Зелёный, Чёрный
+[2025-07-24 20:30:06] - Processing param: wheel_size, type: select, values: 16 дюймов, 20 дюймов, 24 дюйма, 26 дюймов
+[2025-07-24 20:30:06] - Parsed select param: wheel_size, options: 16 дюймов, 20 дюймов, 24 дюйма, 26 дюймов
+[2025-07-24 20:30:06] - Processing param: volt, type: select, values: 24, 36, 48, 72
+[2025-07-24 20:30:06] - Parsed select param: volt, options: 24, 36, 48, 72
+[2025-07-24 20:30:06] - Processing param: lights, type: select, values: 0, 1, 2, 3, 4
+[2025-07-24 20:30:06] - Parsed select param: lights, options: 0, 1, 2, 3, 4
+[2025-07-24 20:30:06] - Filter form parsed, content length: 7537
+[2025-07-24 20:30:09] - mstorefilter.mstore.list.query.php started
+[2025-07-24 20:30:09] - No filter conditions applied
+[2025-07-24 20:30:09] - mstorefilter.mstoretags.php started
+[2025-07-24 20:30:09] - XTemplate loaded for filterform.tpl
+[2025-07-24 20:30:09] - Loaded 7 filter parameters
+[2025-07-24 20:30:09] - Processing param: battery_capacity, type: checkbox, values: 5, 10, 11, 12
+[2025-07-24 20:30:09] - Parsed checkbox param: battery_capacity, options: 5, 10, 11, 12
+[2025-07-24 20:30:09] - Processing param: rama, type: checkbox, values: Складная, Цельная
+[2025-07-24 20:30:09] - Parsed checkbox param: rama, options: Складная, Цельная
+[2025-07-24 20:30:09] - Processing param: power_motor, type: range, values: 0, 10000
+[2025-07-24 20:30:09] - Parsed range param: power_motor (value: 0)
+[2025-07-24 20:30:09] - Processing param: color, type: radio, values: Красный, Синий, Зелёный, Чёрный
+[2025-07-24 20:30:09] - Parsed radio param: color, options: Красный, Синий, Зелёный, Чёрный
+[2025-07-24 20:30:09] - Processing param: wheel_size, type: select, values: 16 дюймов, 20 дюймов, 24 дюйма, 26 дюймов
+[2025-07-24 20:30:09] - Parsed select param: wheel_size, options: 16 дюймов, 20 дюймов, 24 дюйма, 26 дюймов
+[2025-07-24 20:30:09] - Processing param: volt, type: select, values: 24, 36, 48, 72
+[2025-07-24 20:30:09] - Parsed select param: volt, options: 24, 36, 48, 72
+[2025-07-24 20:30:09] - Processing param: lights, type: select, values: 0, 1, 2, 3, 4
+[2025-07-24 20:30:09] - Parsed select param: lights, options: 0, 1, 2, 3, 4
+[2025-07-24 20:30:09] - Filter form parsed, content length: 7528
+[2025-07-24 20:30:13] - mstorefilter.mstore.list.query.php started
+[2025-07-24 20:30:13] - Applied checkbox: battery_capacity = 5
+[2025-07-24 20:30:13] - Skipped range filter: power_motor (value: 0)
+[2025-07-24 20:30:13] - Filter applied with 1 conditions
+[2025-07-24 20:30:13] - Found 0 items after filtering
+[2025-07-24 20:30:13] - mstorefilter.mstoretags.php started
+[2025-07-24 20:30:13] - XTemplate loaded for filterform.tpl
+[2025-07-24 20:30:13] - Loaded 7 filter parameters
+[2025-07-24 20:30:13] - Processing param: battery_capacity, type: checkbox, values: 5, 10, 11, 12
+[2025-07-24 20:30:13] - Parsed checkbox param: battery_capacity, options: 5, 10, 11, 12
+[2025-07-24 20:30:13] - Processing param: rama, type: checkbox, values: Складная, Цельная
+[2025-07-24 20:30:13] - Parsed checkbox param: rama, options: Складная, Цельная
+[2025-07-24 20:30:13] - Processing param: power_motor, type: range, values: 0, 10000
+[2025-07-24 20:30:13] - Parsed range param: power_motor (value: 0)
+[2025-07-24 20:30:13] - Processing param: color, type: radio, values: Красный, Синий, Зелёный, Чёрный
+[2025-07-24 20:30:13] - Parsed radio param: color, options: Красный, Синий, Зелёный, Чёрный
+[2025-07-24 20:30:13] - Processing param: wheel_size, type: select, values: 16 дюймов, 20 дюймов, 24 дюйма, 26 дюймов
+[2025-07-24 20:30:13] - Parsed select param: wheel_size, options: 16 дюймов, 20 дюймов, 24 дюйма, 26 дюймов
+[2025-07-24 20:30:13] - Processing param: volt, type: select, values: 24, 36, 48, 72
+[2025-07-24 20:30:13] - Parsed select param: volt, options: 24, 36, 48, 72
+[2025-07-24 20:30:13] - Processing param: lights, type: select, values: 0, 1, 2, 3, 4
+[2025-07-24 20:30:13] - Parsed select param: lights, options: 0, 1, 2, 3, 4
+[2025-07-24 20:30:13] - Filter form parsed, content length: 7535
+[2025-07-24 20:30:32] - mstorefilter.mstore.list.query.php started
+[2025-07-24 20:30:32] - Applied checkbox: battery_capacity = 5
+[2025-07-24 20:30:32] - Skipped range filter: power_motor (value: 0)
+[2025-07-24 20:30:32] - Filter applied with 1 conditions
+[2025-07-24 20:30:32] - Found 0 items after filtering
+[2025-07-24 20:30:32] - mstorefilter.mstoretags.php started
+[2025-07-24 20:30:32] - XTemplate loaded for filterform.tpl
+[2025-07-24 20:30:32] - Loaded 7 filter parameters
+[2025-07-24 20:30:32] - Processing param: battery_capacity, type: checkbox, values: 5, 10, 11, 12
+[2025-07-24 20:30:32] - Parsed checkbox param: battery_capacity, options: 5, 10, 11, 12
+[2025-07-24 20:30:32] - Processing param: rama, type: checkbox, values: Складная, Цельная
+[2025-07-24 20:30:32] - Parsed checkbox param: rama, options: Складная, Цельная
+[2025-07-24 20:30:32] - Processing param: power_motor, type: range, values: 0, 10000
+[2025-07-24 20:30:32] - Parsed range param: power_motor (value: 0)
+[2025-07-24 20:30:32] - Processing param: color, type: radio, values: Красный, Синий, Зелёный, Чёрный
+[2025-07-24 20:30:32] - Parsed radio param: color, options: Красный, Синий, Зелёный, Чёрный
+[2025-07-24 20:30:32] - Processing param: wheel_size, type: select, values: 16 дюймов, 20 дюймов, 24 дюйма, 26 дюймов
+[2025-07-24 20:30:32] - Parsed select param: wheel_size, options: 16 дюймов, 20 дюймов, 24 дюйма, 26 дюймов
+[2025-07-24 20:30:32] - Processing param: volt, type: select, values: 24, 36, 48, 72
+[2025-07-24 20:30:32] - Parsed select param: volt, options: 24, 36, 48, 72
+[2025-07-24 20:30:32] - Processing param: lights, type: select, values: 0, 1, 2, 3, 4
+[2025-07-24 20:30:32] - Parsed select param: lights, options: 0, 1, 2, 3, 4
+[2025-07-24 20:30:32] - Filter form parsed, content length: 7535
+[2025-07-24 20:30:55] - mstorefilter.mstore.list.query.php started
+[2025-07-24 20:30:55] - Applied checkbox: battery_capacity = 5
+[2025-07-24 20:30:55] - Skipped range filter: power_motor (value: 0)
+[2025-07-24 20:30:55] - Filter applied with 1 conditions
+[2025-07-24 20:30:55] - Found 0 items after filtering
+[2025-07-24 20:30:55] - mstorefilter.mstoretags.php started
+[2025-07-24 20:30:55] - XTemplate loaded for filterform.tpl
+[2025-07-24 20:30:55] - Loaded 7 filter parameters
+[2025-07-24 20:30:55] - Processing param: battery_capacity, type: checkbox, values: 5, 10, 11, 12
+[2025-07-24 20:30:55] - Parsed checkbox param: battery_capacity, options: 5, 10, 11, 12
+[2025-07-24 20:30:55] - Processing param: rama, type: checkbox, values: Складная, Цельная
+[2025-07-24 20:30:55] - Parsed checkbox param: rama, options: Складная, Цельная
+[2025-07-24 20:30:55] - Processing param: power_motor, type: range, values: 0, 10000
+[2025-07-24 20:30:55] - Parsed range param: power_motor (value: 0)
+[2025-07-24 20:30:55] - Processing param: color, type: radio, values: Красный, Синий, Зелёный, Чёрный
+[2025-07-24 20:30:55] - Parsed radio param: color, options: Красный, Синий, Зелёный, Чёрный
+[2025-07-24 20:30:55] - Processing param: wheel_size, type: select, values: 16 дюймов, 20 дюймов, 24 дюйма, 26 дюймов
+[2025-07-24 20:30:55] - Parsed select param: wheel_size, options: 16 дюймов, 20 дюймов, 24 дюйма, 26 дюймов
+[2025-07-24 20:30:55] - Processing param: volt, type: select, values: 24, 36, 48, 72
+[2025-07-24 20:30:55] - Parsed select param: volt, options: 24, 36, 48, 72
+[2025-07-24 20:30:55] - Processing param: lights, type: select, values: 0, 1, 2, 3, 4
+[2025-07-24 20:30:55] - Parsed select param: lights, options: 0, 1, 2, 3, 4
+[2025-07-24 20:30:55] - Filter form parsed, content length: 7535
+[2025-07-24 20:31:01] - mstorefilter.mstore.list.query.php started
+[2025-07-24 20:31:01] - No filter conditions applied
+[2025-07-24 20:31:01] - mstorefilter.mstoretags.php started
+[2025-07-24 20:31:01] - XTemplate loaded for filterform.tpl
+[2025-07-24 20:31:01] - Loaded 7 filter parameters
+[2025-07-24 20:31:01] - Processing param: battery_capacity, type: checkbox, values: 5, 10, 11, 12
+[2025-07-24 20:31:01] - Parsed checkbox param: battery_capacity, options: 5, 10, 11, 12
+[2025-07-24 20:31:01] - Processing param: rama, type: checkbox, values: Складная, Цельная
+[2025-07-24 20:31:01] - Parsed checkbox param: rama, options: Складная, Цельная
+[2025-07-24 20:31:01] - Processing param: power_motor, type: range, values: 0, 10000
+[2025-07-24 20:31:01] - Parsed range param: power_motor (value: 0)
+[2025-07-24 20:31:01] - Processing param: color, type: radio, values: Красный, Синий, Зелёный, Чёрный
+[2025-07-24 20:31:01] - Parsed radio param: color, options: Красный, Синий, Зелёный, Чёрный
+[2025-07-24 20:31:01] - Processing param: wheel_size, type: select, values: 16 дюймов, 20 дюймов, 24 дюйма, 26 дюймов
+[2025-07-24 20:31:01] - Parsed select param: wheel_size, options: 16 дюймов, 20 дюймов, 24 дюйма, 26 дюймов
+[2025-07-24 20:31:01] - Processing param: volt, type: select, values: 24, 36, 48, 72
+[2025-07-24 20:31:01] - Parsed select param: volt, options: 24, 36, 48, 72
+[2025-07-24 20:31:01] - Processing param: lights, type: select, values: 0, 1, 2, 3, 4
+[2025-07-24 20:31:01] - Parsed select param: lights, options: 0, 1, 2, 3, 4
+[2025-07-24 20:31:01] - Filter form parsed, content length: 7528
+[2025-07-24 20:31:06] - mstorefilter.mstore.list.query.php started
+[2025-07-24 20:31:06] - Skipped range filter: power_motor (value: 0)
+[2025-07-24 20:31:06] - Applied radio: color = Зелёный
+[2025-07-24 20:31:06] - Filter applied with 1 conditions
+[2025-07-24 20:31:06] - Found 1 items after filtering
+[2025-07-24 20:31:06] - mstorefilter.mstoretags.php started
+[2025-07-24 20:31:06] - XTemplate loaded for filterform.tpl
+[2025-07-24 20:31:06] - Loaded 7 filter parameters
+[2025-07-24 20:31:06] - Processing param: battery_capacity, type: checkbox, values: 5, 10, 11, 12
+[2025-07-24 20:31:06] - Parsed checkbox param: battery_capacity, options: 5, 10, 11, 12
+[2025-07-24 20:31:06] - Processing param: rama, type: checkbox, values: Складная, Цельная
+[2025-07-24 20:31:06] - Parsed checkbox param: rama, options: Складная, Цельная
+[2025-07-24 20:31:06] - Processing param: power_motor, type: range, values: 0, 10000
+[2025-07-24 20:31:06] - Parsed range param: power_motor (value: 0)
+[2025-07-24 20:31:06] - Processing param: color, type: radio, values: Красный, Синий, Зелёный, Чёрный
+[2025-07-24 20:31:06] - Parsed radio param: color, options: Красный, Синий, Зелёный, Чёрный
+[2025-07-24 20:31:06] - Processing param: wheel_size, type: select, values: 16 дюймов, 20 дюймов, 24 дюйма, 26 дюймов
+[2025-07-24 20:31:06] - Parsed select param: wheel_size, options: 16 дюймов, 20 дюймов, 24 дюйма, 26 дюймов
+[2025-07-24 20:31:06] - Processing param: volt, type: select, values: 24, 36, 48, 72
+[2025-07-24 20:31:06] - Parsed select param: volt, options: 24, 36, 48, 72
+[2025-07-24 20:31:06] - Processing param: lights, type: select, values: 0, 1, 2, 3, 4
+[2025-07-24 20:31:06] - Parsed select param: lights, options: 0, 1, 2, 3, 4
+[2025-07-24 20:31:06] - Filter form parsed, content length: 7535
+[2025-07-24 20:31:14] - mstorefilter.mstore.list.query.php started
+[2025-07-24 20:31:14] - Skipped range filter: power_motor (value: 0)
+[2025-07-24 20:31:14] - Applied radio: color = Зелёный
+[2025-07-24 20:31:14] - Applied select: volt = 72
+[2025-07-24 20:31:14] - Filter applied with 2 conditions
+[2025-07-24 20:31:14] - Found 2 items after filtering
+[2025-07-24 20:31:14] - mstorefilter.mstoretags.php started
+[2025-07-24 20:31:14] - XTemplate loaded for filterform.tpl
+[2025-07-24 20:31:14] - Loaded 7 filter parameters
+[2025-07-24 20:31:14] - Processing param: battery_capacity, type: checkbox, values: 5, 10, 11, 12
+[2025-07-24 20:31:14] - Parsed checkbox param: battery_capacity, options: 5, 10, 11, 12
+[2025-07-24 20:31:14] - Processing param: rama, type: checkbox, values: Складная, Цельная
+[2025-07-24 20:31:14] - Parsed checkbox param: rama, options: Складная, Цельная
+[2025-07-24 20:31:14] - Processing param: power_motor, type: range, values: 0, 10000
+[2025-07-24 20:31:14] - Parsed range param: power_motor (value: 0)
+[2025-07-24 20:31:14] - Processing param: color, type: radio, values: Красный, Синий, Зелёный, Чёрный
+[2025-07-24 20:31:14] - Parsed radio param: color, options: Красный, Синий, Зелёный, Чёрный
+[2025-07-24 20:31:14] - Processing param: wheel_size, type: select, values: 16 дюймов, 20 дюймов, 24 дюйма, 26 дюймов
+[2025-07-24 20:31:14] - Parsed select param: wheel_size, options: 16 дюймов, 20 дюймов, 24 дюйма, 26 дюймов
+[2025-07-24 20:31:14] - Processing param: volt, type: select, values: 24, 36, 48, 72
+[2025-07-24 20:31:14] - Parsed select param: volt, options: 24, 36, 48, 72
+[2025-07-24 20:31:14] - Processing param: lights, type: select, values: 0, 1, 2, 3, 4
+[2025-07-24 20:31:14] - Parsed select param: lights, options: 0, 1, 2, 3, 4
+[2025-07-24 20:31:14] - Filter form parsed, content length: 7543

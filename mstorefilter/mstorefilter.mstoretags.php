@@ -10,7 +10,7 @@ defined('COT_CODE') or die('Wrong URL');
 require_once cot_incfile('mstore', 'module');
 require_once cot_incfile('mstorefilter', 'plug', 'functions');
 
-global $db, $db_x, $t, $items, $structure, $c;
+global $db, $db_x, $t, $items, $structure, $c, $L;
 
 mstorefilter_log("mstorefilter.mstoretags.php started");
 
@@ -57,18 +57,14 @@ foreach ($filter_params as $param) {
     ]);
 
     if ($param_type === 'range') {
-        $values = $input ? explode(',', $input) : [$param_values['min'], $param_values['max']];
-        $min_value = isset($values[0]) ? floatval($values[0]) : $param_values['min'];
-        $max_value = isset($values[1]) ? floatval($values[1]) : $param_values['max'];
-
+        $value = $input ? floatval($input) : 0;
         $t1->assign([
-            'FILTER_PARAM_VALUE_MIN' => $min_value,
-            'FILTER_PARAM_VALUE_MAX' => $max_value,
-            'FILTER_PARAM_MIN' => $param_values['min'],
+            'FILTER_PARAM_VALUE_MAX' => $value,
+            'FILTER_PARAM_MIN' => 0,
             'FILTER_PARAM_MAX' => $param_values['max'],
         ]);
         $t1->parse('FILTER_FORM.FILTER_PARAM.RANGE');
-        mstorefilter_log("Parsed range param: $param_name (min: $min_value, max: $max_value)");
+        mstorefilter_log("Parsed range param: $param_name (value: $value)");
     } elseif (in_array($param_type, ['select', 'checkbox', 'radio'])) {
         $t1->reset("FILTER_FORM.FILTER_PARAM." . strtoupper($param_type) . "_LIST");
         foreach ($param_values as $value) {
@@ -86,15 +82,16 @@ foreach ($filter_params as $param) {
 
     $t1->parse('FILTER_FORM.FILTER_PARAM');
 }
-$params = [];
 
+$params = [];
 if (isset($c) && is_string($c) && trim($c) !== '') {
     $params['c'] = $c;
 }
 
-//$t1->assign('SEARCH_ACTION_URL', cot_url('mstore', $params, '', true));
-
-$t1->assign('SEARCH_ACTION_URL', cot_url('mstore', ['c' => $c], '', true));
+$t1->assign([
+    'SEARCH_ACTION_URL' => cot_url('mstore', ['c' => $c], '', true),
+    'FILTER_RESET_URL' => cot_url('mstore', ['c' => $c], '', true), // URL для сброса фильтров с сохранением категории
+]);
 
 foreach (cot_getextplugins('mstorefilter.list.tags') as $pl) {
     include $pl;
@@ -104,6 +101,11 @@ $t1->parse('FILTER_FORM');
 $form_content = $t1->text('FILTER_FORM');
 mstorefilter_log("Filter form parsed, content length: " . strlen($form_content));
 
-$t->assign('MSTORE_FILTER_FORM', $form_content);
-
+// Передаем форму фильтра и сообщение о результатах фильтрации в шаблон
+$t->assign([
+    'MSTORE_FILTER_FORM' => $form_content,
+    'MSTOREFILTER_MESSAGE' => $L['mstorefilter_message'],
+    'MSTOREFILTER_MESSAGE_CLASS' => $L['mstorefilter_message_class'],
+]);
+?>
 
