@@ -42,7 +42,7 @@ Detailed instructions for filling in filter parameter fields: <ul>
 
 Add to mstore.tpl
 ```
-<!-- IF {PHP|cot_plugin_active('attacher')} -->
+<!-- IF {PHP|cot_plugin_active('mstorefilter')} -->
 <h3>{PHP.L.mstorefilter_paramsItem}</h3>
 <dl class="row">
     <!-- BEGIN: MSTORE_FILTER_PARAMS -->
