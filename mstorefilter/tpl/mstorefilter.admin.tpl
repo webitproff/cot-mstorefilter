@@ -1,7 +1,7 @@
 <!-- BEGIN: MAIN -->
 <div class="container-fluid">
     <h2>{PHP.L.mstorefilter_admin_title}</h2>
-
+{FILE "{PHP.cfg.themes_dir}/admin/{PHP.cfg.admintheme}/warnings.tpl"}
     <!-- BEGIN: ADD_FORM -->
     <div class="p-3 mb-4 bg-primary-subtle text-primary-emphasis">
         <h3>{PHP.L.mstorefilter_add_param}</h3>
