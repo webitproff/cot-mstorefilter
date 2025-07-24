@@ -31,6 +31,12 @@ $form_values = [
 
 $edit_mode = false;
 
+// Импорт значения param_id как можно раньше (важно!)
+$param_id = cot_import('id', 'G', 'INT');
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $param_id = cot_import('id', 'P', 'INT');
+}
+
 // Обработка формы добавления/редактирования
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && in_array($action, ['add', 'edit'])) {
     $param_name = cot_import('param_name', 'P', 'ALP');
@@ -38,7 +44,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && in_array($action, ['add', 'edit']))
     $param_type = cot_import('param_type', 'P', 'ALP');
     $param_values = cot_import('param_values', 'P', 'TXT');
     $param_active = cot_import('param_active', 'P', 'BOL') ? 1 : 0;
-$param_id = cot_import('id', 'P', 'INT');
+
     if ($param_name && $param_title && in_array($param_type, ['range', 'select', 'checkbox', 'radio'])) {
         $values_decoded = json_decode($param_values, true);
 
@@ -62,6 +68,7 @@ $param_id = cot_import('id', 'P', 'INT');
                 $db->update($db_mstorefilter_params, $data, 'param_id = ?', [$param_id]);
                 cot_message('Параметр обновлён');
             }
+
             cot_redirect(cot_url('admin', 'm=other&p=mstorefilter', '', true));
             exit;
         }
