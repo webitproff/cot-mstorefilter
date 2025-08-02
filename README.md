@@ -1,6 +1,7 @@
 # Mstore Filter Plugin for Cotonti Siena v0.9.26
 
 The **Mstore Filter** plugin provides dynamic filtering capabilities for the [Mstore](https://github.com/webitproff/cot-multistore) module in Cotonti Siena v0.9.26. It allows administrators to define custom filter parameters for products and enables users to filter products based on these parameters, such as custom attributes (e.g., battery capacity, frame type, or color). Price filtering is still in development. The plugin supports multiple filter types (range, select, checkbox, radio) and integrates seamlessly with the Mstore module.
+# [Demo](https://multistore.previewit.work/mstore)
 
 <img alt="Dynamic filter parameters for Mstore module for Cotonti v0.9.26" src="https://raw.githubusercontent.com/webitproff/cot-mstorefilter/refs/heads/main/mstorefilter.png">
 
