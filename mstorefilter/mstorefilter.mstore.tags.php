@@ -10,8 +10,10 @@ defined('COT_CODE') or die('Wrong URL');
 require_once cot_incfile('mstore', 'module');
 require_once cot_incfile('mstorefilter', 'plug', 'functions');
 
-global $db, $db_x, $t, $msitem;
 
+global $db, $db_x, $db_mstore, $t, $item;
+
+$db_mstore = $db_x . 'mstore';
 $db_mstorefilter_params = $db_x . 'mstorefilter_params';
 $db_mstorefilter_params_values = $db_x . 'mstorefilter_params_values';
 
@@ -21,8 +23,14 @@ if (!$t) {
 }
 
 // Получаем msitem_id
-$msitem_id = isset($msitem['msitem_id']) ? (int)$msitem['msitem_id'] : cot_import('id', 'G', 'INT');
+$msitem_id = isset($item['msitem_id']) ? (int)$item['msitem_id'] : cot_import('id', 'G', 'INT');
 mstorefilter_log("msitem_id = $msitem_id");
+
+// не трогать
+/* if (empty($msitem) && cot_import('id', 'G', 'INT') > 0) {
+    $msitem_id = cot_import('id', 'G', 'INT');
+    $msitem = $db->query("SELECT * FROM {$db_x}mstore WHERE msitem_id = ?", [$msitem_id])->fetch();
+} */
 
 if ($msitem_id > 0) {
     // Получаем активные параметры

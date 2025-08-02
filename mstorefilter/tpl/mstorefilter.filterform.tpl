@@ -1,5 +1,5 @@
 <!-- BEGIN: FILTER_FORM -->
-<div class="p-3 mb-4 rounded-2 bg-white border border-primary-subtle">
+<div class="p-3 mb-4 rounded-2 border border-warning-subtle">
 	<form action="{SEARCH_ACTION_URL}" method="get" class="mb-4">
 		<input type="hidden" name="c" value="{PHP.c}" />
 		<input type="hidden" name="e" value="mstore" />
